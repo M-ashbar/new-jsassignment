@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(205, 248, 251);
+}
+h1{
+    text-align: center;
+}
+
+.editor{
+    border: 1px solid #b3b3b3;
+    min-height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.toolbar{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.toolbar button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background: repeating-linear-gradient(rgb(21, 91, 255), rgb(233, 233, 233));
+}

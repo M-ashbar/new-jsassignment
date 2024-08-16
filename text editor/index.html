@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE TEXT EDITOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('https://th.bing.com/th/id/R.0ce55734103ef06a8f86d87de5026f22?rik=f%2bwpED60n%2fYwHA&riu=http%3a%2f%2fi.stack.imgur.com%2fyEQ6k.jpg&ehk=POX2ylROd7V%2fg%2bfbuOwJygMN3DRMzCrEe%2ffBOYEfuto%3d&risl=&pid=ImgRaw&r=0');">
+    <h1>TextEditor</h1>
+    <div class="editor" contenteditable="true" id="editor" style="color: white;">
+        Type your text here        
+     </div>
+     <div class="toolbar">
+        <button onclick="boldText()">Bold</button>
+        <button onclick="italicText()">Italic</button>
+        <button onclick="attachFile()">Attach</button>
+        <button onclick="insertImage()">Insert Image</button>
+        <button onclick="incrementIndentation()">Indent</button>
+        <button onclick="decrementIndentation()">Qutdent</button>
+
+     </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>

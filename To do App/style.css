@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(216, 226, 226);
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://th.bing.com/th/id/R.095525f8e3fa79d32e8ada57d6bbfceb?rik=03QA7DLowNOzhQ&pid=ImgRaw&r=0');
+ }
+ .container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+ }
+ input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 19px;
+
+
+ }
+ button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(10, 13, 13);
+    color: rgb(252, 250, 250);
+    border: none;
+    cursor: pointer;
+
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+ }
+ .text ul{
+    position: relative;
+    background-color: rgb(5, 31, 31);
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
+ h1{
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background: repeating-linear-gradient(rgb(224, 224, 132), rgb(233, 233, 233));
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+           background-image: url('https://media.istockphoto.com/id/1489465576/photo/close-up-of-human-hand-holding-a-classic-stopwatch.jpg?s=1024x1024&w=is&k=20&c=8f_UACbscotvQ7HKjwIUQ97ofZOCP1zfdECGU-agwbg=');
+            background-size: cover;
+            
+            background-repeat: no-repeat;
+        }
+        #s1{
+             display: flex;
+             justify-content: center;
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 60px;
+           
+        }
+        #min {
+            font-size: 60px;
+        }
+        #seconds {
+            font-size: 60px;
+        }
+        #ms {
+            font-size: 60px;
+        }
+
+        h1{
+            color: white;
+        }
+        span{
+            color: white;
+        }
+      
+        h2{
+            color: white;
+            background: repeating-linear-gradient(rgb(65, 11, 5), rgb(116, 108, 108));
+            font-weight: lighter;
+            font-style: italic;
+            text-decoration: wavy;
+        }
+
+     
+    </style>
+   <h2 id="s1"> STOP WATCH</h2>
+    <div style="display: flex; justify-content: center;">
+       
+        <h1 id="min">0</h1><span id="min">m</span>
+        <h1 id="min">:</h1>
+        <h1 id="seconds">0</h1><span id="seconds">s</span>
+        <h1 id="seconds">:</h1>
+        <h1 id="ms">00</h1> <span id="ms">ms</span>   
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <button id="start_btn" onclick="start()">START</button>
+        <button onclick="stop()">STOP</button>
+        <button onclick="reset()">RESET</button>
+    
+    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

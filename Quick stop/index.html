@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('https://media.istockphoto.com/id/173863203/photo/stopwatch-on-the-clock.jpg?s=1024x1024&w=is&k=20&c=VsKyq6uaH3HGK6QL0kjXqxSffEKpM9ogPpL4MinD6As=');
+          background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1{
+            font-size: 60px;
+            font-style: italic;
+            color: rgb(255, 255, 255);
+            background: repeating-linear-gradient(rgb(5, 23, 65), rgb(116, 108, 108));
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <h1>Quick Stop Game</h1> 
+    
+    <h1 id="number">00</h1>
+    <div>
+        <input placeholder="Add Your number" id="user_input" />
+    </div>
+    <h4 id="result">-</h4>
+   <span>
+
+       <button id="start_btn" onclick="start()">start</button>
+       <button onclick="stop()">stop</button>
+   </span>
+    <script src="app.js"></script>
+</body>
+</html>
